@@ -6,7 +6,7 @@ guess_limit = 5
 name = input("Enter name: ")
 print("Welcome aboard " + name)
 print("Let's play a guessing game!")
-print("Choose any number between 1 to 9 ")
+print("Choose any number between 1 to 9. Beware, you have only 5 tries. ")
 while guess != luckynum and not(out_of_guesses) :
     if guesscount < guess_limit:
         guess = (input("Guess my lucky number: " ))
